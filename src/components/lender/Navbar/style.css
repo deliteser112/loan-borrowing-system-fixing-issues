@@ -1,0 +1,48 @@
+.nav-bar{
+   width: 100%;
+}
+.nav {
+ background-color:white;
+ display: flex;
+ align-items: center;
+justify-content: space-between;
+width: 100%;
+margin-bottom:0px;
+padding-bottom: 0px;
+height: 60px;
+
+}
+
+.brand{
+color: rgb(21, 176, 171);
+font-size: 150%;
+font-weight: bold;
+display: flex;
+align-items: center;
+
+
+
+}
+.button{
+   float:right;
+   border-radius: 5px;
+   padding: 5px;
+   color: black;
+   margin-right: 10px;
+   color: rgb(212,163,87);
+   font-weight: bold;
+   font-size: 15px;
+   background-color: rgb(88, 87, 87);
+   height: 30%;
+   border: 4px rgb(48, 70, 75) solid;
+   cursor: pointer;
+   margin-bottom: 10px;
+  
+   
+}
+.logo {
+   height: auto;
+   max-width: 150px;
+   margin-top: 10px;
+   
+}

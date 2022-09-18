@@ -1,0 +1,49 @@
+.kyc--content{
+    padding: 2em;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+    background-color: #f4f6fa; /* Choose your own color here */
+}
+
+.table-striped>tbody>tr>td,
+.table-striped>thead>tr>th{
+    padding: 1em 0; 
+}
+
+.validate--icon{
+    display: none;
+}
+
+.validate--button{
+    display: block;
+    text-align: right;
+}
+
+.kyc--buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    .validate--icon {
+      display: flex;
+      margin-left: auto;
+    }
+
+    .validate--button{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .kyc--buttons{
+        flex-direction: column;
+    }
+
+    .kyc--buttons button {
+        width: 100%;
+        margin-bottom: 1em;
+    }
+}

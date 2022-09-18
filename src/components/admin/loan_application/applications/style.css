@@ -1,0 +1,43 @@
+
+.main{
+  position: absolute;
+  width: 80%;
+  left: 20%;
+  top: 0%;
+  padding: 20px;
+}
+
+.navbar-admin{
+  position: fixed;
+  width: 20%;
+  left: 0%;
+  height: 100%;
+  background-color: rgb(30, 38, 42);
+  color: white !important;
+
+
+}
+.side-menu-admin{
+color: white !important;
+list-style: none;
+display: flex;
+flex-direction:column;
+text-align: left;
+margin-top: 50px;
+text-decoration: none;
+
+
+}
+.list-side:hover{
+  background-color: gray;
+
+  
+}
+.list-side{
+  color: white !important;
+  line-height: 50px;
+  padding: 40px 0 40px 0 40px;
+}
+.logo-pic{
+  padding: 10px;
+}

@@ -1,0 +1,81 @@
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.App{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner--image{
+    margin: 50px;
+    padding: 0px;
+    height: 110%;
+   
+}
+
+.auth--form{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1200px) {
+    .auth--form{
+        padding: 5%;
+    }
+}
+
+.checkbox{
+    text-align: center;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+  
+}
+
+.nav {
+    background-color:rgb(252, 205, 34);
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   margin-bottom:0px;
+   padding-bottom: 0px;
+   z-index: 10000;
+   position: fixed;
+   top: 0px;
+   width: 100%;
+   
+   }
+
+.password-rules{
+text-align: left;
+margin-left: 140px;
+color: red;
+}
+.banner{
+  width: 50%;
+  height: 100%;
+    margin-top: 55px;
+    margin-right: 20px;
+   
+    position: fixed;
+    
+   
+    
+}
+.banner-pic{
+    
+    width: 680px;
+    height: 620px;
+    object-fit: cover;
+}
+.brand{
+    margin-left: 15px;
+}

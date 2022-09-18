@@ -1,0 +1,126 @@
+.image-container-header{
+    text-align: left;
+    color: gray;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px rgb(221, 221, 221) solid;
+    font-size: small;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* border: 1px rgb(221, 221, 221) solid; */
+    margin-right: 10px;
+}
+
+.Identification{
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 18%;
+   
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+.Income       {
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 18%;
+    
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+.Commitment    {
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 18%;
+ 
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+.Mortgage      {
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 18%;
+   
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+.Documents     {
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 18%;
+  
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+
+.borrower-form{
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px  rgba(220, 220, 220, 0.867) solid;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container-child{
+    display: flex;
+    border-bottom: 1px rgb(217, 217, 217) solid;
+    padding: 10px;
+}
+
+.side-box{
+    padding: 40px;
+    width: 25%;
+    background-color: rgb(219, 219, 219);
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: justify;
+    border-radius: 5px;
+}
+
+.form-container-title{
+    color:gray;
+    border-bottom: 1px rgb(217, 217, 217) solid;
+}
+.form-input{
+    width:75%;
+}
+
+.form-footer{
+    border-top: 1px  rgba(220, 220, 220, 0.867) solid ;
+    padding-top: 10px;
+}
+
+.form-footer .button-submit{
+    width: fit-content;
+    float: right;
+}
+
+.form-footer .button-back{
+    float: left;
+    color: red;
+    width: fit-content;
+}

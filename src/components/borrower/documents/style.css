@@ -1,0 +1,53 @@
+.borrower-form{
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px  rgba(220, 220, 220, 0.867) solid;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container-child{
+    display: flex;
+    border-bottom: 1px rgb(217, 217, 217) solid;
+    padding: 10px;
+}
+
+.side-box{
+    padding: 40px;
+    width: 25%;
+    background-color: rgb(219, 219, 219);
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: justify;
+    border-radius: 5px;
+}
+
+.form-container-title{
+    color:gray;
+    border-bottom: 1px rgb(217, 217, 217) solid;
+}
+.form-input{
+    width:75%;
+}
+
+select{
+   margin-top: 5px;
+}
+
+.form-footer{
+    border-top: 1px  rgba(220, 220, 220, 0.867) solid ;
+    padding-top: 10px;
+}
+
+.form-footer .button-submit{
+    width: fit-content;
+    float: right;
+}
+
+.form-footer .button-back{
+    float: left;
+    color: red;
+    width: fit-content;
+}

@@ -1,0 +1,68 @@
+.Sidebar{
+    height: 100%;
+    /* background-color: rgba(205, 205, 205, 0.592); */
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   overflow-x: hidden;
+    top: 0px;
+    border-right: 1px  rgba(220, 220, 220, 0.867) solid;
+    border-bottom: 1px  rgba(220, 220, 220, 0.867) solid;
+    background-color: white;
+  }
+  
+  .SideBarPic{
+    width: 100%;
+
+  }
+  .fa{
+  margin: 8px;
+  }
+  .ContactUs{
+    text-align: center;
+    margin-top: 10px;
+  }
+  .contact-us{
+    background-color: rgb(255,193,7);
+    color: gray;
+    border-radius: 10px;
+    border: 2px gray solid;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .logo{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .container{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .side-container{
+    margin: 10px;
+    /* box-shadow: 1px 1px 1px 1px rgb(226, 226, 226); */
+    border-radius: 5px;
+  }
+  .brand{
+    margin-left: 10px;
+    color: rgb(156, 156, 156);
+  }
+  .header{
+    color: rgb(241, 152, 35);
+
+  }
+  .links{
+    
+    padding: 15px;
+  }
+  .btn{
+    background-color:rgb(241, 152, 35) ;
+    border-radius: 20px;
+  }
+

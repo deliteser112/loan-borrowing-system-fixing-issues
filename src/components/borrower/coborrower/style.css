@@ -1,0 +1,126 @@
+.label-required:after{
+    content: "*";
+    color: red;
+}
+
+.image-container-header{
+    text-align: left;
+    color: gray;
+    margin-top: 10px;
+    padding-left: 10px;
+    border: 1px rgb(221, 221, 221) solid;
+    font-size: small;
+    /* margin-bottom: 5px; */
+    padding-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.images-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    /* border: 1px rgb(221, 221, 221) solid; */
+    /* margin-right: 10px; */
+}
+
+.progress-image{
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+   
+    /* padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%; */
+}
+.coborrower-form{
+    margin: 10px;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px  rgba(220, 220, 220, 0.867) solid;
+    padding: 10px;
+    background-color: white;
+}
+
+.form-container-child{
+    display: flex;
+    border-bottom: 1px rgb(217, 217, 217) solid;
+    padding: 10px;
+}
+
+.side-box{
+    padding: 40px;
+    width: 25%;
+    background-color: rgb(219, 219, 219);
+    margin: 10px;
+    text-align: left;
+    font-size: 12px;
+    text-decoration: justify;
+    border-radius: 5px;
+}
+
+.form-input{
+    width:75%;
+}
+
+.income-button{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #886d08;
+    background-color: white;
+}
+
+.income-button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.income-button-active{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+    background-color: #fad139;
+}
+
+.income-button-active:hover{
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .income-button img, .income-button-active img{
+    width: 100%;
+} */
+
+.form-footer{
+    border-top: 1px  rgba(220, 220, 220, 0.867) solid ;
+    padding-top: 10px;
+}
+
+.form-footer .button-submit{
+    width: fit-content;
+    float: right;
+}
+
+.form-footer .button-back{
+    float: left;
+    color: red;
+    width: fit-content;
+}
+

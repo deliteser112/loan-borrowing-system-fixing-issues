@@ -1,0 +1,41 @@
+.profile{
+    margin: 20px;
+    border: 1px rgb(220, 220, 220) solid;
+    padding: 30px;
+    background-color: white;
+}
+.profile-col{
+    border-right:1px rgb(212, 209, 209) solid;
+    padding: o 30px 30px 30px;
+}
+.form-col{
+    text-align: left;
+}
+.change-pass{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.profile-footer{
+   
+    border-top: 1px rgb(236, 236, 236) solid;
+    width: 100%;
+    padding-top: 20px;
+}
+.update-button{
+    width: 100px;
+ float: left;
+   
+}
+.back-button{
+
+width: 100px;
+}
+.back-col{
+    text-align: right;
+    
+}
+.prof-pic{
+ width: 70%;
+ background-color:rgb(244,246,250);
+ margin-bottom: 30px;
+}

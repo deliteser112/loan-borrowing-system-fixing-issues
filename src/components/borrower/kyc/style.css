@@ -1,0 +1,513 @@
+
+
+.main{
+position: absolute;
+left: 20%;
+background-color: rgb(244,246,250);
+margin-bottom: 10px;
+/* margin-top: 50px; */
+/* margin-left: 5px; */
+width: 80%;
+/* padding: 1em; */
+}
+
+
+/* navbar */
+
+.navbar{
+
+  position: absolute;
+  top: 0px;
+  margin-left: 20%;
+  border-bottom: 1px rgba(220, 220, 220, 0.867) solid;
+  height: 50px;
+  width: 80%;
+  background-color: white;
+}
+.KYC{
+  margin-left: 5px;
+  position: absolute;
+  color: gray;
+}
+.profile-section{
+ position: absolute;
+ top: 0%;
+ right: 3px;
+ height: 50px;
+}
+
+small{
+  color: gray;
+}
+.refer{
+
+border: 2px rgb(255,193,7) solid;
+padding: 5px;
+ color: gray;
+ border-radius: 10px;
+ font-size: 14px;
+ margin-top: 5px;
+ margin-right: 30px;
+ background-color: white;
+ 
+}
+.refer:hover{
+  background-color:rgb(255,193,7) ;
+  color: rgb(100, 99, 99);
+}
+
+.user{
+  width: 40px;
+  height: 40px;
+}
+
+/* sidebar  */
+
+.Sidebar{
+  height: 100%;
+  /* background-color: rgba(205, 205, 205, 0.592); */
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+ overflow-x: hidden;
+  top: 0px;
+  border-right: 1px  rgba(220, 220, 220, 0.867) solid;
+  border-bottom: 1px  rgba(220, 220, 220, 0.867) solid;
+  background-color: white;
+}
+
+.SideBarPic{
+  width: 100%;
+ 
+}
+.fa{
+margin: 8px;
+}
+.ContactUs{
+  text-align: center;
+  margin-top: 10px;
+}
+.contact-us{
+  background-color: rgb(255,193,7);
+  color: gray;
+  border-radius: 10px;
+  border: 2px gray solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+.logo{
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.container{
+display: flex;
+justify-content: center;
+}
+
+.side-container{
+  margin: 10px;
+  /* box-shadow: 1px 1px 1px 1px rgb(226, 226, 226); */
+  border-radius: 5px;
+}
+
+/* images */
+.info{
+  margin: 15px;
+  background-color: white;
+  border-radius: 5px;
+  width: 20%;
+  width: 25%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.commitment{
+ 
+  margin: 15px;
+  background-color: white;
+  border-radius: 5px;
+  width: 25%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  
+}
+.docs{
+  
+  margin: 15px;
+  background-color: white;
+  border-radius: 5px;
+  width: 25%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+ 
+}
+.links{
+
+  color: rgb(146, 146, 146);
+  width: 100%;
+  font-size: medium;
+  border-radius: 5px;
+  margin-top: 5px;
+  text-align: left;
+  border: none;
+  background-color: white;
+}
+
+.links:hover{
+  background-color:rgb(255,193,7) ;
+  color: black;
+  border-radius: 5px;
+}
+
+.form-container{
+  height: 5%;
+  border: 1px rgba(220, 220, 220, 0.867) solid;
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+
+.form{
+  border-radius: 5px;
+  text-align: left;
+  
+}
+.box{
+  width:30%;
+  height: 200px;
+  text-align: center;
+ 
+  background-color: rgb(184, 184, 184);
+}
+
+.form1{
+  margin: 10px;
+  text-align: left;
+  border-radius: 5px;
+  border: 2px  rgba(220, 220, 220, 0.867) solid;
+  padding: 10px;
+  background-color: white;
+}
+.custom-file-input{
+ margin-top: 5px;
+ left: 300px;
+ margin-left: 0.1em;
+ border: 2px  rgba(220, 220, 220, 0.867) solid;
+ padding: 3px;
+ padding-left: 2px;
+ height:38px ;
+ margin-bottom: 2px;
+ border-radius: 5px;
+}
+.input-group-text{
+  margin: 5px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.mb-1{
+  width: 50px;
+}
+
+.form2{
+  margin: 10px;
+
+  border-radius: 5px;
+  border: 2px  rgba(220, 220, 220, 0.867) solid;
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+}
+.form3{
+  margin: 10px;
+ 
+  border-radius: 5px;
+  border: 2px  rgba(220, 220, 220, 0.867) solid;
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+  
+}
+.form4{
+  margin: 10px;
+
+  border-radius: 5px;
+  border: 2px  rgba(220, 220, 220, 0.867) solid;
+  padding: 10px;
+  background-color: white;
+  text-align: left;
+}
+.description{
+  padding-bottom: 50px;
+}
+
+.label{
+  padding-top: 15px;
+  margin-bottom: 5px;
+}
+.button{
+text-align: right;
+border-top: 1px  rgba(220, 220, 220, 0.867) solid ;
+margin-top: 20px;
+}
+
+
+.select{
+  width:50px;
+}
+.input{
+  margin-right: 60%;
+  height: 40px;
+  margin-top: 4px;
+}
+.mb-4{
+margin-right: 60%;
+}
+.container-body{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 90%;
+}
+.DSR-header{
+  color: gray;
+  margin-top: 20px;
+  text-align: left;
+  
+}
+.progessbar{
+  zoom: 220%;
+  background-color: white;
+  padding-top: 10px;
+  text-align: right;
+}
+.DSR-info{
+  
+  text-align: right;
+  background-color: red;
+  height: 20px;
+}
+.question-mark{
+ color: white;
+ border: none;
+ border-radius: 80px;
+padding: -10px;
+ font-size: 8px;
+ margin-right: 10px;
+ cursor: pointer;
+ background-color: skyblue;
+}
+
+.title
+{
+  padding-top: 10px;
+  color: gray;
+  height: 40px;
+  margin-left: 5px;
+  /* border-bottom: 1px gray solid; */
+}
+.DSR-container{
+  /* border: 1px gray solid; */
+  /* display: inline; */
+  /* text-align: left; */
+  /* padding: 20px; */
+  /* width: 70%; */
+  
+}
+.DSR{
+  color: gray;
+  background-color: white;
+
+  border: 1px rgba(209, 209, 209, 0.444) solid;
+  text-align: left;
+ 
+  margin: 10px;
+  font-size: 12px;
+  width:50%;
+}
+.DRS-text{
+  display: flex;
+  justify-content: space-between;
+  font-size: 6px;
+  color: gray;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+
+
+
+tr{
+  padding: 10px;
+
+}
+.what-is-DSR{
+  width: 95%;
+  background-color: white;
+  
+  border: 2px rgba(209, 209, 209, 0.444) solid;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-align: left;
+  /* height: 10%; */
+  padding: 10px;
+  color: gray;
+  font-size: small;
+  text-align: justify;
+
+}
+.what-is-dsr-title{
+  border-bottom:2px rgba(209, 209, 209, 0.444) solid ;
+}
+/* progress  */
+.progessbar-container{
+
+  border: 1px rgba(209, 209, 209, 0.444) solid;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  height: 30%;
+  
+}
+
+
+.print{
+  text-align: right;
+  margin: 20px;
+  
+}
+.print-btn{
+  border: none;
+  background-color: orange;
+  color: white;
+  padding:10px;
+  margin-right: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+
+  
+}
+
+
+/* @-webkit-keyframes progress {
+  0% { --percentage: 0; }
+  100% { --percentage: var(--value); }
+}
+
+
+@keyframes progress {
+  0% { --percentage: 0; }
+  100% { --percentage: var(--value); }
+}
+
+@property --percentage {
+  syntax: '<number>';
+  inherits: true;
+  initial-value: 33;
+}
+
+[role="progressbar"] {
+  --percentage: var(--value);
+  --primary: #369;
+  --secondary: #adf;
+  --size: 400px;
+  -webkit-animation: progress 2s 0.5s forwards;
+          animation: progress 2s 0.5s forwards;
+  width: var(--size);
+  aspect-ratio: 2 / 1;
+  border-radius: 50% / 100% 100% 0 0;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  float: right;
+ 
+  top:0%;
+}
+
+[role="progressbar"]::before {
+  content: "";
+  position: absolute;
+  top: 0;
+
+  width: 100%;
+  height: 100%;
+  background: conic-gradient(from 0.75turn at 50% 100%, var(--primary) calc(var(--percentage) * 1% / 2), var(--secondary) calc(var(--percentage) * 1% / 2 + 0.1%));
+  -webkit-mask: radial-gradient(at 50% 100%, white 55%, transparent 55.5%);
+          mask: radial-gradient(at 50% 100%, white 55%, transparent 55.5%);
+  mask-mode: alpha;
+  -webkit-mask: radial-gradient(at 50% 100%, #0000 55%, #000 55.5%);
+  -webkit-mask-mode: alpha;
+}
+
+[role="progressbar"]::after {
+  counter-reset: percentage var(--value);
+  content: counter(percentage) '%';
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: calc(var(--size) / 5);
+  color: var(--primary);
+} */
+
+/* demo */
+
+.summary-container{
+  border: 1px rgb(220, 220, 220) solid;
+  margin: 10px;
+  
+  text-align: left;
+  padding: 10px;
+  background-color: white;
+  font-size: 13px;
+  width: 90%;
+}
+.summary-table{
+  color: gray;
+
+} 
+.summary-header{
+  border-bottom: 1px rgb(220, 220, 220) solid;
+  /* height: 30px; */
+  margin-bottom: 16px;
+
+} 
+.update-button{
+float: right;
+color: rgb(42, 152, 207);
+} 
+.fa{
+  color: black;
+}
+td{
+ width: 10%;
+}
+.left-cell{
+  font-weight: bold;
+  color: gray;
+}
+tr{
+  margin: 10px;
+}
+
+.dsr-legend {
+  
+  float: left;
+}
+
+.dsr-legend-1 {
+ float: right;
+}
